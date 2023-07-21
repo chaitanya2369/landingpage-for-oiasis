@@ -80,7 +80,6 @@
 .image{
     background-image: url(blue-classic-vintage-retro-electric-scooter-black-circle-promotion-stage-podium-with-backlight-3d-rendering_476612-20180.avif);
     background-repeat: no-repeat;
-    /* background-position:top right; */
     background-position: 100%;
     height: auto;
     padding: 15px;
@@ -177,8 +176,6 @@
 }
 .footer{
     width: 100%;
-    /* height: 300px; */
-    /* padding: 10px; */
     display: flex;
     justify-content: flex-start;
     margin: 10px;
@@ -213,13 +210,11 @@ span{
 }
 .footercontact{
     width: 33%;
-    /* align-items: end; */
 }
 .footercontact .footer-center{
     display: flex;
     color: white;
     justify-content: flex-end;
-    /* align-items: end; */
     flex-direction: column;
 }
 .footercontact .footer-center a{
@@ -285,45 +280,39 @@ span{
     }
     .header-div div{
         margin: 10px;
+        width: 100%;
     }
-
+    .logo.hide{
+        display: none;
+    }
     .loginbtn {
       display: none;
     }
-  
     .hamburger-menu {
       display: block;
-      /* Fix the hamburger icon at the right position */
       position: fixed;
       color: rgb(228, 18, 18);
       top: 10px;
       right: 10px;
     }
     .image{
-        background-image: url(/blue-classic-vintage-retro-electric-scooter-black-circle-promotion-stage-podium-with-backlight-3d-rendering_476612-20180.avif) no-repeat center center fixed;
-        /* background-color: red; */
-        overflow-x: hidden;
+        background-image: url(/blue-classic-vintage-retro-electric-scooter-black-circle-promotion-stage-podium-with-backlight-3d-rendering_476612-20180.avif);
         width: 100%;
         background-attachment:unset ;
         background-repeat: no-repeat;
-        background-position:right;
+        background-position:center;
         background-size: cover;
         height:auto;
         color: white;
-        /* position: static; */
         padding: 0px;
         padding-bottom: 0px;
-        /* margin: 10%; */
     }
     #titleheading{
-        /* color: red; */
         margin-top: 5%;
         font-size: 50px;
         margin-left: 10%;
-        /* font-weight: 20px; */
     }
     #titlepara{
-        /* color: blueviolet; */
         margin-left:10%;
         margin-top: 5%;
         max-width: 70%
@@ -398,7 +387,6 @@ span{
     .icon{
         display: flex;
         justify-content: flex-start;
-        /* align-items: last baseline; */
         margin: 1%;
     }
     .footer{
@@ -431,7 +419,7 @@ span{
     #instagram,
     #google {
         text-decoration: none;
-        font-size: 5vw;
+        font-size: 150%;
         background-color: #18191f;
         color: #05d3de;
         box-shadow: 2px 2px 2px #00000080,10px 1px 12px #00000080,2px 2px 10px #00000080,2px 2px 3px #00000080,inset 2px 2px 10px #00000080,inset 2px 2px 10px #00000080,inset 2px 2px 10px #00000080,inset 2px 2px 10px #00000080,inset 2px 2px 10px #00000080;
